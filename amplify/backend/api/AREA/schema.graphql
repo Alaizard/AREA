@@ -1,0 +1,9 @@
+type Properties @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  ownership_type: String
+  listing_date: AWSDate
+  listing_price: Float
+  zip_code: String
+  address: String
+  purchase_price: Float
+}
